@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<h1>Insight One</h1>
+<p> 1. Investing in DM capacity-building led to improved NS response, and partners should be called on to support with this 
+</p>
+</body>
+
+</html>
