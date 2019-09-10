@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1 style="text-align:center;">Evidence for Insight Three</h1>
+<ul>
+<li> Weather and climate forecasts have become more reliable and available at global, regional and national level. This supported strong action and preparedness following severe drought warnings in late 2016.</li>
+<br><li> Ethiopian Red Cross worked closely with the meteorological department to undertake situational analysis and strengthen its preparedness activity.</li>
+<br><li> Kenya Red Cross was able to utilise information from a variety of sources, including the Kenya Meteorological Departments and FEWSNET. This allowed them to begin responding and mobilizing resources in October 2016, four months before the government declared the drought a national disaster.  </li>
+
+<br><p><a href="https://eastafricadroughtinsights.github.io/Insight_three.html">Close</a></p> 
+
+</body>
+</html>
