@@ -6,21 +6,100 @@ body {background-color: white;}
 h1   {color: black;font-family: Calibri;}
 p    {color: black;font-family: Calibri;}
 </style>
+<style>
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button:hover {
+  background-color: #f1f1f1;
+}
+</style>
 </head>
 <body>
 <br>
 <h1 style="text-align:center;">Insight Four: Having effective SOPs and contingency plans helped achieve an effective response </h1>
 <center><img src="insight_four_image.jpg" alt="temp" width="400" height="266"></center>
 
-<p style="text-align:right;">Next insight</p>
-<a href="https://eastafricadroughtinsights.github.io/Insight_five.html">
-  <img src="right_arrow.png" alt="HTML tutorial" style="float:right;width:42px;height:42px;border:0">
-</a>
-<a href="https://eastafricadroughtinsights.github.io/Insight_three.html">
-  <img src="left_arrow.jpg" alt="Back" style=";width:42px;height:42px;border:0">
-</a>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.Evidence {
+  background-color:White;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
 
-<p><a href="https://eastafricadroughtinsights.github.io/Insight_four_evidence.html"><center>What's the evidence?</center></a></p> 
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+
+<button class="accordion"><center>What's the evidence?</center></button>
+<div class="panel">
+<p>
+<ul>
+<li> Kenya Red Cross had worked with IFRC to put together a plan of action in 2015; this plan provided a basis for the 2016/17 response, and allowed for quick planning and resource mobilization.
+<br><li> Kenya Red Cross branches in Arid and Semi-Arid Lands (ASALs), developed county contingency plans with county governments, in preparation for the forecasted drought, which allowed them to respond faster and more effectively.
+<br><li> In early 2016, KRCS prepared for drought through capacity building of the RCAT and National Disaster Response Team (NDRT). Training included conducting rapid assessments using the Kenya Inter-Agency Rapid Assessment (KIRA) tool, monitoring of drought situations and putting in place contingency plans. The KRCS developed the response tools; Document Management Framework (the hierarchy of documents); SoPs for drought and RCAT guidelines. These were critical during response, making response organized and well-coordinated.
+</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+<br>
+<br>
+<a href="https://eastafricadroughtinsights.github.io/Insight_three.html">
+
+<button>Previous Insight</button>
+</a>
+<div style='float: right;'>
+<a href="https://eastafricadroughtinsights.github.io/Insight_five.html">
+  
+
+<button>Next Insight</button>
+</a>
+</div>
+<br>
 <br><p>Resources:</p>
 
 <p>IFRC contingency planning guide: <a href="https://www.ifrc.org/PageFiles/40825/1220900-CPG%202012-EN-LR.pdf">https://www.ifrc.org/PageFiles/40825/1220900-CPG%202012-EN-LR.pdf</a></p>
