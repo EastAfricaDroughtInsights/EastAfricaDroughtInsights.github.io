@@ -8,6 +8,27 @@ h1   {color: black;font-family: Calibri;}
 p    {color: black;font-family: Calibri;}
 
 </style>
+
+<style>
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button:hover {
+  background-color: #f1f1f1;
+}
+</style>
+
+
 </head>
 <body>
 <br>
@@ -20,8 +41,77 @@ p    {color: black;font-family: Calibri;}
   <img src="Next_insight_button.jpg" alt="HTML tutorial" style="float:right;width:202px;47height:px;border:200">
 </a>
 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.Evidence {
+  background-color:White;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
 
-<p><a href="https://eastafricadroughtinsights.github.io/Insight_one_evidence.html">What's the evidence?</a></p> 
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+</style>
+</head>
+<body>
+
+
+<button class="accordion"><center>What's the evidence?</center></button>
+<div class="panel">
+<p>
+<ul>
+
+<li>Kenya Red Cross’  DM strengthening project improved the technical skills of staff and volunteers; causing faster response time, wider reach, decentralization of interventions, better data collection and reporting. 
+<br><li>The preparedness of ICRC and Somali Red Crescent in terms of funding, volunteer networks and emergency stocks, allowed them to make a faster and more impactful response than most other responders. 
+<br><li>In Ethiopia, training of NS staff and volunteers on community based health and first aid CBHFA improved the quality of response. In some affected areas, the NS were the only operating humanitarian responder. 
+<br><li>In Kenya, increasing staff and volunteers’ technical capacities and creation of RCATs in different branches, increased the reach and efficiency of interventions.
+<br><li>Training community volunteers on WASH proved to be very effective, especially in Somalia.
+<br><li>Procurement of essential equipment and items was challenging for some NS, , due to lack of proper procurement mechanisms, proper logistical information and established linkages with suppliers. 
+
+</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+<div style='float: right;'>
+<a href="https://eastafricadroughtinsights.github.io/Insight_two.html">
+  
+
+<button>Next Insight</button>
+</a>
+</div>
+
+
 <p>Resources:</p>
 <p>PER: <a href="https://media.ifrc.org/ifrc/what-we-do-disaster-and-crisis-national-society-preparedness-effective-response/">https://media.ifrc.org/ifrc/what-we-do-disaster-and-crisis-national-society-preparedness-effective-response/</a></p>
 <p>Safer Access: <a href="http://saferaccess.icrc.org/">http://saferaccess.icrc.org/</a></p>
